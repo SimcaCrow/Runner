@@ -1,0 +1,108 @@
+\hypertarget{class_time_controller}{}\section{Time\+Controller Class Reference}
+\label{class_time_controller}\index{Time\+Controller@{Time\+Controller}}
+Inheritance diagram for Time\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_time_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_time_controller_a6692282e48cb8eb9a4bf10d130d9c17a}{Fix\+Previous\+Time}} ()
+\item 
+void \mbox{\hyperlink{class_time_controller_a153403da1e9de2e547c7931ce044be7f}{Set\+Is\+Dead}} (bool state)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_time_controller_ae2531258e75cb1af4c09edd88a89d147}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_time_controller_a4b60f339ab4270f1bf015d4a44083184}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_time_controller_ad911152a7d332d8458803fdca5475a24}{Update\+Time}} ()
+\item 
+void \mbox{\hyperlink{class_time_controller_aaa0e1ce02dd37efd2811ff87906955ef}{Display\+Time}} ()
+\item 
+void \mbox{\hyperlink{class_time_controller_aa4f1e53477ee98721d237e6e1136ff0d}{Change\+Text\+Color}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_controller_a99ffaa5295e9966eb3d4193148ee1872}\label{class_time_controller_a99ffaa5295e9966eb3d4193148ee1872}} 
+Text {\bfseries time\+Text}
+\item 
+\mbox{\Hypertarget{class_time_controller_a4b06f18491704904152df8892910d680}\label{class_time_controller_a4b06f18491704904152df8892910d680}} 
+Game\+Object {\bfseries time\+Manager}
+\item 
+\mbox{\Hypertarget{class_time_controller_a2c9c8d4fa6064e169097ad6cd9496c10}\label{class_time_controller_a2c9c8d4fa6064e169097ad6cd9496c10}} 
+\mbox{\hyperlink{class_calories_controller}{Calories\+Controller}} {\bfseries calories\+Manager}
+\item 
+\mbox{\Hypertarget{class_time_controller_a99b6cdfa30d893add2a079c64263c514}\label{class_time_controller_a99b6cdfa30d893add2a079c64263c514}} 
+float {\bfseries starting\+Time}
+\item 
+\mbox{\Hypertarget{class_time_controller_a15c1438cde26d29ca344d41c2025344a}\label{class_time_controller_a15c1438cde26d29ca344d41c2025344a}} 
+float {\bfseries actual\+Time}
+\item 
+\mbox{\Hypertarget{class_time_controller_aa3cc16bfa3a109262d9d6dbeff8d35e1}\label{class_time_controller_aa3cc16bfa3a109262d9d6dbeff8d35e1}} 
+float {\bfseries previous\+Time}
+\item 
+\mbox{\Hypertarget{class_time_controller_ab376a3d495666e554f2d1159d2dadca9}\label{class_time_controller_ab376a3d495666e554f2d1159d2dadca9}} 
+int {\bfseries calories\+To\+Lost}
+\item 
+\mbox{\Hypertarget{class_time_controller_a72662f634bd87b08684e500f4a1cd987}\label{class_time_controller_a72662f634bd87b08684e500f4a1cd987}} 
+int {\bfseries timer}
+\item 
+\mbox{\Hypertarget{class_time_controller_a32d6967178527c2f0061a616f367ff22}\label{class_time_controller_a32d6967178527c2f0061a616f367ff22}} 
+bool {\bfseries is\+Dead}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_controller_aa4f1e53477ee98721d237e6e1136ff0d}\label{class_time_controller_aa4f1e53477ee98721d237e6e1136ff0d}} 
+\index{Time\+Controller@{Time\+Controller}!Change\+Text\+Color@{Change\+Text\+Color}}
+\index{Change\+Text\+Color@{Change\+Text\+Color}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Change\+Text\+Color()}{ChangeTextColor()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Change\+Text\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Change the timer color according to your calorie and time goal \mbox{\Hypertarget{class_time_controller_aaa0e1ce02dd37efd2811ff87906955ef}\label{class_time_controller_aaa0e1ce02dd37efd2811ff87906955ef}} 
+\index{Time\+Controller@{Time\+Controller}!Display\+Time@{Display\+Time}}
+\index{Display\+Time@{Display\+Time}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Display\+Time()}{DisplayTime()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Display\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Display the timer on screen \mbox{\Hypertarget{class_time_controller_a6692282e48cb8eb9a4bf10d130d9c17a}\label{class_time_controller_a6692282e48cb8eb9a4bf10d130d9c17a}} 
+\index{Time\+Controller@{Time\+Controller}!Fix\+Previous\+Time@{Fix\+Previous\+Time}}
+\index{Fix\+Previous\+Time@{Fix\+Previous\+Time}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Fix\+Previous\+Time()}{FixPreviousTime()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Fix\+Previous\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Fix the previous time done when the player die \mbox{\Hypertarget{class_time_controller_a153403da1e9de2e547c7931ce044be7f}\label{class_time_controller_a153403da1e9de2e547c7931ce044be7f}} 
+\index{Time\+Controller@{Time\+Controller}!Set\+Is\+Dead@{Set\+Is\+Dead}}
+\index{Set\+Is\+Dead@{Set\+Is\+Dead}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Set\+Is\+Dead()}{SetIsDead()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Set\+Is\+Dead (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})}
+
+Change the timer state when the player die or achieve his goal \mbox{\Hypertarget{class_time_controller_ae2531258e75cb1af4c09edd88a89d147}\label{class_time_controller_ae2531258e75cb1af4c09edd88a89d147}} 
+\index{Time\+Controller@{Time\+Controller}!Start@{Start}}
+\index{Start@{Start}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_time_controller_a4b60f339ab4270f1bf015d4a44083184}\label{class_time_controller_a4b60f339ab4270f1bf015d4a44083184}} 
+\index{Time\+Controller@{Time\+Controller}!Update@{Update}}
+\index{Update@{Update}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update is called once per frame \mbox{\Hypertarget{class_time_controller_ad911152a7d332d8458803fdca5475a24}\label{class_time_controller_ad911152a7d332d8458803fdca5475a24}} 
+\index{Time\+Controller@{Time\+Controller}!Update\+Time@{Update\+Time}}
+\index{Update\+Time@{Update\+Time}!Time\+Controller@{Time\+Controller}}
+\subsubsection{\texorpdfstring{Update\+Time()}{UpdateTime()}}
+{\footnotesize\ttfamily void Time\+Controller.\+Update\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update the timer 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Time\+Controller.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+\hypertarget{class_text_file_controller}{}\section{Text\+File\+Controller Class Reference}
+\label{class_text_file_controller}\index{Text\+File\+Controller@{Text\+File\+Controller}}
+Inheritance diagram for Text\+File\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_text_file_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_text_file_controller_a331013e33f02f03d7572f4fa2012cb1f}{Calories\+Lost}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_text_file_controller_ac6f1c084100c2444e52297bab26329ce}{Text\+Reader}} (string file\+Path)
+\item 
+void \mbox{\hyperlink{class_text_file_controller_a9d4855b5a0e296eea72c933dc23e8b3a}{Text\+Parser}} (string text)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_text_file_controller_a5c731a196ad06e75f09e3f449997bdba}{String\+To\+Float\+To\+Int}} (string text)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_text_file_controller_ae9e9561a329074315972d9351171f51d}\label{class_text_file_controller_ae9e9561a329074315972d9351171f51d}} 
+Dictionary$<$ string, int $>$ {\bfseries body\+Output}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_text_file_controller_ad5cde0aa3de654e59c321a3daa258f31}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_text_file_controller_a1af98165daca71ad66b947454666f98e}{Update}} ()
+\item 
+string \mbox{\hyperlink{class_text_file_controller_ad839df8c252d9e12d5ae7b92d250ae81}{Remove\+Line\+Break\+And\+Space}} (string text)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_text_file_controller_a375e71c91c711ba2e45f13649d190d03}\label{class_text_file_controller_a375e71c91c711ba2e45f13649d190d03}} 
+string {\bfseries text\+File\+Data}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_text_file_controller_a137594f1ab900564d436c1e0a0dc3062}\label{class_text_file_controller_a137594f1ab900564d436c1e0a0dc3062}} 
+static string {\bfseries path} = @\char`\"{}Assets\textbackslash{}\+Resources\textbackslash{}informations.\+txt\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_text_file_controller_ad5cde0aa3de654e59c321a3daa258f31}\label{class_text_file_controller_ad5cde0aa3de654e59c321a3daa258f31}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Awake@{Awake}}
+\index{Awake@{Awake}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Text\+File\+Controller.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_text_file_controller_a331013e33f02f03d7572f4fa2012cb1f}\label{class_text_file_controller_a331013e33f02f03d7572f4fa2012cb1f}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Calories\+Lost@{Calories\+Lost}}
+\index{Calories\+Lost@{Calories\+Lost}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Calories\+Lost()}{CaloriesLost()}}
+{\footnotesize\ttfamily int Text\+File\+Controller.\+Calories\+Lost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Return the number of calories lost read in the dictionnary \mbox{\Hypertarget{class_text_file_controller_ad839df8c252d9e12d5ae7b92d250ae81}\label{class_text_file_controller_ad839df8c252d9e12d5ae7b92d250ae81}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Remove\+Line\+Break\+And\+Space@{Remove\+Line\+Break\+And\+Space}}
+\index{Remove\+Line\+Break\+And\+Space@{Remove\+Line\+Break\+And\+Space}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Remove\+Line\+Break\+And\+Space()}{RemoveLineBreakAndSpace()}}
+{\footnotesize\ttfamily string Text\+File\+Controller.\+Remove\+Line\+Break\+And\+Space (\begin{DoxyParamCaption}\item[{string}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Remove line break and space from a textfile \mbox{\Hypertarget{class_text_file_controller_a5c731a196ad06e75f09e3f449997bdba}\label{class_text_file_controller_a5c731a196ad06e75f09e3f449997bdba}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!String\+To\+Float\+To\+Int@{String\+To\+Float\+To\+Int}}
+\index{String\+To\+Float\+To\+Int@{String\+To\+Float\+To\+Int}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{String\+To\+Float\+To\+Int()}{StringToFloatToInt()}}
+{\footnotesize\ttfamily static int Text\+File\+Controller.\+String\+To\+Float\+To\+Int (\begin{DoxyParamCaption}\item[{string}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+Convert string into int \mbox{\Hypertarget{class_text_file_controller_a9d4855b5a0e296eea72c933dc23e8b3a}\label{class_text_file_controller_a9d4855b5a0e296eea72c933dc23e8b3a}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Text\+Parser@{Text\+Parser}}
+\index{Text\+Parser@{Text\+Parser}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Text\+Parser()}{TextParser()}}
+{\footnotesize\ttfamily void Text\+File\+Controller.\+Text\+Parser (\begin{DoxyParamCaption}\item[{string}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Parse the text variable into the body\+Output dictionnary \mbox{\Hypertarget{class_text_file_controller_ac6f1c084100c2444e52297bab26329ce}\label{class_text_file_controller_ac6f1c084100c2444e52297bab26329ce}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Text\+Reader@{Text\+Reader}}
+\index{Text\+Reader@{Text\+Reader}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Text\+Reader()}{TextReader()}}
+{\footnotesize\ttfamily string Text\+File\+Controller.\+Text\+Reader (\begin{DoxyParamCaption}\item[{string}]{file\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Read the text in the file\+Path \mbox{\Hypertarget{class_text_file_controller_a1af98165daca71ad66b947454666f98e}\label{class_text_file_controller_a1af98165daca71ad66b947454666f98e}} 
+\index{Text\+File\+Controller@{Text\+File\+Controller}!Update@{Update}}
+\index{Update@{Update}!Text\+File\+Controller@{Text\+File\+Controller}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Text\+File\+Controller.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update is called once per frame 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Text\+File\+Controller.\+cs\end{DoxyCompactItemize}

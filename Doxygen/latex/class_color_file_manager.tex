@@ -1,0 +1,79 @@
+\hypertarget{class_color_file_manager}{}\section{Color\+File\+Manager Class Reference}
+\label{class_color_file_manager}\index{Color\+File\+Manager@{Color\+File\+Manager}}
+Inheritance diagram for Color\+File\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_color_file_manager}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ string $>$ \mbox{\hyperlink{class_color_file_manager_aa548375d447b63be2862d93dacca3b24}{List\+Of\+Players}} (string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_color_file_manager_a0fb905dacc59c730d20b2f29c7c348d6}{Edit\+Player}} (\mbox{\hyperlink{class_player_color}{Player\+Color}} new\+Player, string path=data\+File)
+\item 
+static Dictionary$<$ string, Color $>$ \mbox{\hyperlink{class_color_file_manager_a3836ee29f11c6a7fa60b1ae3c89582d5}{Find\+Colors}} (string player\+Name, string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_color_file_manager_a73094e85b36ea78788ee84733c419fbd}{Remove\+Player}} (string player\+Name, string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_color_file_manager_aa6497a46c4128d159552b65f1f675cfe}{Reset\+File}} (string path=data\+File)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_color_file_manager_af4e55b402c15b046cd1933b32f410b94}{Add\+New\+Player}} (\mbox{\hyperlink{class_player_color}{Player\+Color}} new\+Player, string path=data\+File)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_color_file_manager_a9c632f9880c955e2e14821eb542fab92}\label{class_color_file_manager_a9c632f9880c955e2e14821eb542fab92}} 
+const string {\bfseries data\+File} = \char`\"{}Assets/Resources/colors.\+csv\char`\"{}
+\item 
+\mbox{\Hypertarget{class_color_file_manager_a4dabe5cb92c596d72b64f69d258ba72c}\label{class_color_file_manager_a4dabe5cb92c596d72b64f69d258ba72c}} 
+const char {\bfseries sep} = \textquotesingle{};\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_color_file_manager_af4e55b402c15b046cd1933b32f410b94}\label{class_color_file_manager_af4e55b402c15b046cd1933b32f410b94}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!Add\+New\+Player@{Add\+New\+Player}}
+\index{Add\+New\+Player@{Add\+New\+Player}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{Add\+New\+Player()}{AddNewPlayer()}}
+{\footnotesize\ttfamily static void Color\+File\+Manager.\+Add\+New\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_color}{Player\+Color}}}]{new\+Player,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Add the data of the new player in the csv file \mbox{\Hypertarget{class_color_file_manager_a0fb905dacc59c730d20b2f29c7c348d6}\label{class_color_file_manager_a0fb905dacc59c730d20b2f29c7c348d6}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!Edit\+Player@{Edit\+Player}}
+\index{Edit\+Player@{Edit\+Player}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{Edit\+Player()}{EditPlayer()}}
+{\footnotesize\ttfamily static void Color\+File\+Manager.\+Edit\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_color}{Player\+Color}}}]{new\+Player,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Edit the data of a player. If the player does not already exist, add him in the data file \mbox{\Hypertarget{class_color_file_manager_a3836ee29f11c6a7fa60b1ae3c89582d5}\label{class_color_file_manager_a3836ee29f11c6a7fa60b1ae3c89582d5}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!Find\+Colors@{Find\+Colors}}
+\index{Find\+Colors@{Find\+Colors}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{Find\+Colors()}{FindColors()}}
+{\footnotesize\ttfamily static Dictionary$<$string, Color$>$ Color\+File\+Manager.\+Find\+Colors (\begin{DoxyParamCaption}\item[{string}]{player\+Name,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add the data of the new player in the csv file \mbox{\Hypertarget{class_color_file_manager_aa548375d447b63be2862d93dacca3b24}\label{class_color_file_manager_aa548375d447b63be2862d93dacca3b24}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!List\+Of\+Players@{List\+Of\+Players}}
+\index{List\+Of\+Players@{List\+Of\+Players}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{List\+Of\+Players()}{ListOfPlayers()}}
+{\footnotesize\ttfamily static List$<$string$>$ Color\+File\+Manager.\+List\+Of\+Players (\begin{DoxyParamCaption}\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the list of all the player in the data file \mbox{\Hypertarget{class_color_file_manager_a73094e85b36ea78788ee84733c419fbd}\label{class_color_file_manager_a73094e85b36ea78788ee84733c419fbd}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!Remove\+Player@{Remove\+Player}}
+\index{Remove\+Player@{Remove\+Player}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{Remove\+Player()}{RemovePlayer()}}
+{\footnotesize\ttfamily static void Color\+File\+Manager.\+Remove\+Player (\begin{DoxyParamCaption}\item[{string}]{player\+Name,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove the data of a player depending of his name \mbox{\Hypertarget{class_color_file_manager_aa6497a46c4128d159552b65f1f675cfe}\label{class_color_file_manager_aa6497a46c4128d159552b65f1f675cfe}} 
+\index{Color\+File\+Manager@{Color\+File\+Manager}!Reset\+File@{Reset\+File}}
+\index{Reset\+File@{Reset\+File}!Color\+File\+Manager@{Color\+File\+Manager}}
+\subsubsection{\texorpdfstring{Reset\+File()}{ResetFile()}}
+{\footnotesize\ttfamily static void Color\+File\+Manager.\+Reset\+File (\begin{DoxyParamCaption}\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Erase the content of the csv file, and write the first line (description of the data) 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Color\+File\+Manager.\+cs\end{DoxyCompactItemize}

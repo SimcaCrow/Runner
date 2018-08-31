@@ -1,0 +1,137 @@
+\hypertarget{class_color_picker_controller}{}\section{Color\+Picker\+Controller Class Reference}
+\label{class_color_picker_controller}\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+Inheritance diagram for Color\+Picker\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_color_picker_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_a8503e643cd8444bb3d2f8b90a9e6afe3}{\+\_\+\+Draw\+G\+UI}} ()
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_a270b925f43981f37f1ea7753f8ff127e}{Set\+Color}} (Color color)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a004fbbcbc245aca818b1857c808b7a72}\label{class_color_picker_controller_a004fbbcbc245aca818b1857c808b7a72}} 
+Texture2D {\bfseries color\+Space}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a138c095f4e286758fd8e54e25ea1993f}\label{class_color_picker_controller_a138c095f4e286758fd8e54e25ea1993f}} 
+string {\bfseries Title} = \char`\"{}Emotion\char`\"{}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_ad2e65fc1a6eec6984fbe63b873a75513}\label{class_color_picker_controller_ad2e65fc1a6eec6984fbe63b873a75513}} 
+int {\bfseries draw\+Order} = 0
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a8e29011fbbbd410b66838baefa39bca6}\label{class_color_picker_controller_a8e29011fbbbd410b66838baefa39bca6}} 
+Color {\bfseries Selected\+Color}
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a2e22c8fc7d34083434108a065b4c4ada}\label{class_color_picker_controller_a2e22c8fc7d34083434108a065b4c4ada}} 
+enum {\bfseries E\+S\+T\+A\+TE} \{ {\bfseries Hidden}, 
+{\bfseries Showed}, 
+{\bfseries Showing}, 
+{\bfseries Hidding}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_a8d00cbf7e1b2a60f601ab514bf1bbe75}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_a2e9977639f4aeb80cccd6fd972ec8044}{Update\+Scale\+State}} ()
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_a0bb93373e9344a86476119ae7f98c6cb}{Draw\+Color\+Picker}} ()
+\item 
+void \mbox{\hyperlink{class_color_picker_controller_af1be2fecab7ca749e1862a9a61c46401}{Apply\+Color}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a0c90d1b592b804db1982912bfe2615c8}\label{class_color_picker_controller_a0c90d1b592b804db1982912bfe2615c8}} 
+E\+S\+T\+A\+TE {\bfseries m\+State} = E\+S\+T\+A\+T\+E.\+Hidden
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a49b79b52d3ffc4421a7778973eff4580}\label{class_color_picker_controller_a49b79b52d3ffc4421a7778973eff4580}} 
+Color {\bfseries Temp\+Color}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a658ac3e9ca673c2fa05886cc75414e45}\label{class_color_picker_controller_a658ac3e9ca673c2fa05886cc75414e45}} 
+G\+U\+I\+Style {\bfseries title\+Style} = null
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_ab55c58211ad18fbe903d9465655ccc82}\label{class_color_picker_controller_ab55c58211ad18fbe903d9465655ccc82}} 
+Color {\bfseries text\+Color} = new Color(0.\+94f, 0.\+33f, 0.\+31f, 1)
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a4ae48cfda522b72096ba90c4b3a0b7fc}\label{class_color_picker_controller_a4ae48cfda522b72096ba90c4b3a0b7fc}} 
+Texture2D {\bfseries tx\+Color\+Display}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a99f0cbaf66c5e8e5b97ea441a2c23a40}\label{class_color_picker_controller_a99f0cbaf66c5e8e5b97ea441a2c23a40}} 
+Vector2 {\bfseries start\+Pos}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_aefe25331805a8160067fab11f9f53ba4}\label{class_color_picker_controller_aefe25331805a8160067fab11f9f53ba4}} 
+int {\bfseries size\+Full} = 200
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a21972003f75ee7edff4bdce32687a45e}\label{class_color_picker_controller_a21972003f75ee7edff4bdce32687a45e}} 
+int {\bfseries size\+Hidden} = 20
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a65a5588da5ac9a4fe42f5f414b122d21}\label{class_color_picker_controller_a65a5588da5ac9a4fe42f5f414b122d21}} 
+float {\bfseries size\+Curr} = 0
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_aa15c2f9055d62dc7dbe553369fde9079}\label{class_color_picker_controller_aa15c2f9055d62dc7dbe553369fde9079}} 
+float {\bfseries anim\+Time} = 0.\+5f
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_aa91cd33a05a29fd00546de8483246ed0}\label{class_color_picker_controller_aa91cd33a05a29fd00546de8483246ed0}} 
+float {\bfseries delta} = 0
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_color_picker_controller_a8f4a9f8f3ebc69adcb783574991b292a}\label{class_color_picker_controller_a8f4a9f8f3ebc69adcb783574991b292a}} 
+static \mbox{\hyperlink{class_color_picker_controller}{Color\+Picker\+Controller}} {\bfseries active\+Color\+Picker} = null
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_color_picker_controller_a8503e643cd8444bb3d2f8b90a9e6afe3}\label{class_color_picker_controller_a8503e643cd8444bb3d2f8b90a9e6afe3}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!\+\_\+\+Draw\+G\+UI@{\+\_\+\+Draw\+G\+UI}}
+\index{\+\_\+\+Draw\+G\+UI@{\+\_\+\+Draw\+G\+UI}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{\+\_\+\+Draw\+G\+U\+I()}{\_DrawGUI()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+\_\+\+Draw\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Update is called once per frame \mbox{\Hypertarget{class_color_picker_controller_af1be2fecab7ca749e1862a9a61c46401}\label{class_color_picker_controller_af1be2fecab7ca749e1862a9a61c46401}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!Apply\+Color@{Apply\+Color}}
+\index{Apply\+Color@{Apply\+Color}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{Apply\+Color()}{ApplyColor()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+Apply\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Apply the temporary color \mbox{\Hypertarget{class_color_picker_controller_a0bb93373e9344a86476119ae7f98c6cb}\label{class_color_picker_controller_a0bb93373e9344a86476119ae7f98c6cb}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!Draw\+Color\+Picker@{Draw\+Color\+Picker}}
+\index{Draw\+Color\+Picker@{Draw\+Color\+Picker}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{Draw\+Color\+Picker()}{DrawColorPicker()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+Draw\+Color\+Picker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Draw Color Picker \mbox{\Hypertarget{class_color_picker_controller_a270b925f43981f37f1ea7753f8ff127e}\label{class_color_picker_controller_a270b925f43981f37f1ea7753f8ff127e}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!Set\+Color@{Set\+Color}}
+\index{Set\+Color@{Set\+Color}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{Set\+Color()}{SetColor()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+Set\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+Set the Color Display color \mbox{\Hypertarget{class_color_picker_controller_a8d00cbf7e1b2a60f601ab514bf1bbe75}\label{class_color_picker_controller_a8d00cbf7e1b2a60f601ab514bf1bbe75}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!Start@{Start}}
+\index{Start@{Start}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_color_picker_controller_a2e9977639f4aeb80cccd6fd972ec8044}\label{class_color_picker_controller_a2e9977639f4aeb80cccd6fd972ec8044}} 
+\index{Color\+Picker\+Controller@{Color\+Picker\+Controller}!Update\+Scale\+State@{Update\+Scale\+State}}
+\index{Update\+Scale\+State@{Update\+Scale\+State}!Color\+Picker\+Controller@{Color\+Picker\+Controller}}
+\subsubsection{\texorpdfstring{Update\+Scale\+State()}{UpdateScaleState()}}
+{\footnotesize\ttfamily void Color\+Picker\+Controller.\+Update\+Scale\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update scaling states 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Color\+Picker\+Controller.\+cs\end{DoxyCompactItemize}

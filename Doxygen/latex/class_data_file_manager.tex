@@ -1,0 +1,76 @@
+\hypertarget{class_data_file_manager}{}\section{Data\+File\+Manager Class Reference}
+\label{class_data_file_manager}\index{Data\+File\+Manager@{Data\+File\+Manager}}
+Inheritance diagram for Data\+File\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_data_file_manager}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ string $>$ \mbox{\hyperlink{class_data_file_manager_a4591520b1adccc1d369299d4e1e5242d}{List\+Of\+Players}} (string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_data_file_manager_a83fdebc539d60b35d9f59fd74744a6ee}{Add\+New\+Player}} (\mbox{\hyperlink{class_player_data}{Player\+Data}} new\+Player, string path=data\+File)
+\item 
+static int \mbox{\hyperlink{class_data_file_manager_adb1a1aefda32170d551cc8103183a070}{Next\+Id}} (string player\+Name, string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_data_file_manager_a326a5c6038fcba1b949e825e7f67c9e7}{Remove\+Player}} (string player\+Name, string path=data\+File)
+\item 
+static void \mbox{\hyperlink{class_data_file_manager_a216fccaf83f9be400a0b8df1466f1ce0}{Reset\+File}} (string path=data\+File)
+\item 
+static Dictionary$<$ string, float $>$ \mbox{\hyperlink{class_data_file_manager_a777e64910320c8dbba175e760da4dd0c}{Find\+Data}} (string player\+Name, string path=data\+File)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_file_manager_a41992b6c9e5301078646d1ed95b5d644}\label{class_data_file_manager_a41992b6c9e5301078646d1ed95b5d644}} 
+const string {\bfseries data\+File} = \char`\"{}Assets/Resources/data.\+csv\char`\"{}
+\item 
+\mbox{\Hypertarget{class_data_file_manager_a095786775b10f9c1aefc686e4da005fa}\label{class_data_file_manager_a095786775b10f9c1aefc686e4da005fa}} 
+const char {\bfseries sep} = \textquotesingle{};\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_file_manager_a83fdebc539d60b35d9f59fd74744a6ee}\label{class_data_file_manager_a83fdebc539d60b35d9f59fd74744a6ee}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!Add\+New\+Player@{Add\+New\+Player}}
+\index{Add\+New\+Player@{Add\+New\+Player}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{Add\+New\+Player()}{AddNewPlayer()}}
+{\footnotesize\ttfamily static void Data\+File\+Manager.\+Add\+New\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_data}{Player\+Data}}}]{new\+Player,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add the data of the new player in the csv file \mbox{\Hypertarget{class_data_file_manager_a777e64910320c8dbba175e760da4dd0c}\label{class_data_file_manager_a777e64910320c8dbba175e760da4dd0c}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!Find\+Data@{Find\+Data}}
+\index{Find\+Data@{Find\+Data}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{Find\+Data()}{FindData()}}
+{\footnotesize\ttfamily static Dictionary$<$string, float$>$ Data\+File\+Manager.\+Find\+Data (\begin{DoxyParamCaption}\item[{string}]{player\+Name,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the data ratio for all the trap platforms \mbox{\Hypertarget{class_data_file_manager_a4591520b1adccc1d369299d4e1e5242d}\label{class_data_file_manager_a4591520b1adccc1d369299d4e1e5242d}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!List\+Of\+Players@{List\+Of\+Players}}
+\index{List\+Of\+Players@{List\+Of\+Players}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{List\+Of\+Players()}{ListOfPlayers()}}
+{\footnotesize\ttfamily static List$<$string$>$ Data\+File\+Manager.\+List\+Of\+Players (\begin{DoxyParamCaption}\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the list of all the player in the data file \mbox{\Hypertarget{class_data_file_manager_adb1a1aefda32170d551cc8103183a070}\label{class_data_file_manager_adb1a1aefda32170d551cc8103183a070}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!Next\+Id@{Next\+Id}}
+\index{Next\+Id@{Next\+Id}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{Next\+Id()}{NextId()}}
+{\footnotesize\ttfamily static int Data\+File\+Manager.\+Next\+Id (\begin{DoxyParamCaption}\item[{string}]{player\+Name,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the next game id \mbox{\Hypertarget{class_data_file_manager_a326a5c6038fcba1b949e825e7f67c9e7}\label{class_data_file_manager_a326a5c6038fcba1b949e825e7f67c9e7}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!Remove\+Player@{Remove\+Player}}
+\index{Remove\+Player@{Remove\+Player}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{Remove\+Player()}{RemovePlayer()}}
+{\footnotesize\ttfamily static void Data\+File\+Manager.\+Remove\+Player (\begin{DoxyParamCaption}\item[{string}]{player\+Name,  }\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove the data of a player depending of his name \mbox{\Hypertarget{class_data_file_manager_a216fccaf83f9be400a0b8df1466f1ce0}\label{class_data_file_manager_a216fccaf83f9be400a0b8df1466f1ce0}} 
+\index{Data\+File\+Manager@{Data\+File\+Manager}!Reset\+File@{Reset\+File}}
+\index{Reset\+File@{Reset\+File}!Data\+File\+Manager@{Data\+File\+Manager}}
+\subsubsection{\texorpdfstring{Reset\+File()}{ResetFile()}}
+{\footnotesize\ttfamily static void Data\+File\+Manager.\+Reset\+File (\begin{DoxyParamCaption}\item[{string}]{path = {\ttfamily dataFile} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Erase the content of the csv file, and write the first line (description of the data) 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Data\+File\+Manager.\+cs\end{DoxyCompactItemize}

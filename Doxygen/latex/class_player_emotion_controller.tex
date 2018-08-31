@@ -1,0 +1,68 @@
+\hypertarget{class_player_emotion_controller}{}\section{Player\+Emotion\+Controller Class Reference}
+\label{class_player_emotion_controller}\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+Inheritance diagram for Player\+Emotion\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player_emotion_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_player_emotion_controller_ae49d14f99ec4326fb8633e4069f76aa2}{on\+Face\+Found}} (float timestamp, int face\+Id)
+\item 
+override void \mbox{\hyperlink{class_player_emotion_controller_a27c247c8051c1026716b7f21a896ae61}{on\+Face\+Lost}} (float timestamp, int face\+Id)
+\item 
+override void \mbox{\hyperlink{class_player_emotion_controller_a00e185773c0a3ce8a659bb78f4e9b952}{on\+Image\+Results}} (Dictionary$<$ int, Face $>$ faces)
+\item 
+string \mbox{\hyperlink{class_player_emotion_controller_ad0671b88a534bb741bb25b0c9b6264c4}{Emotion\+Detected}} (float emotion\+Detection)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_emotion_controller_afd0e863b7b8b4eb4884f30b5b2675b47}\label{class_player_emotion_controller_afd0e863b7b8b4eb4884f30b5b2675b47}} 
+Dictionary$<$ string, float $>$ {\bfseries emotions}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_emotion_controller_adfa33ea37c1acf423dece1b75a87484f}{Awake}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_emotion_controller_adfa33ea37c1acf423dece1b75a87484f}\label{class_player_emotion_controller_adfa33ea37c1acf423dece1b75a87484f}} 
+\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}!Awake@{Awake}}
+\index{Awake@{Awake}!Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+\subsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void Player\+Emotion\+Controller.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_player_emotion_controller_ad0671b88a534bb741bb25b0c9b6264c4}\label{class_player_emotion_controller_ad0671b88a534bb741bb25b0c9b6264c4}} 
+\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}!Emotion\+Detected@{Emotion\+Detected}}
+\index{Emotion\+Detected@{Emotion\+Detected}!Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+\subsubsection{\texorpdfstring{Emotion\+Detected()}{EmotionDetected()}}
+{\footnotesize\ttfamily string Player\+Emotion\+Controller.\+Emotion\+Detected (\begin{DoxyParamCaption}\item[{float}]{emotion\+Detection }\end{DoxyParamCaption})}
+
+Return the predominant emotion detected \mbox{\Hypertarget{class_player_emotion_controller_ae49d14f99ec4326fb8633e4069f76aa2}\label{class_player_emotion_controller_ae49d14f99ec4326fb8633e4069f76aa2}} 
+\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}!on\+Face\+Found@{on\+Face\+Found}}
+\index{on\+Face\+Found@{on\+Face\+Found}!Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+\subsubsection{\texorpdfstring{on\+Face\+Found()}{onFaceFound()}}
+{\footnotesize\ttfamily override void Player\+Emotion\+Controller.\+on\+Face\+Found (\begin{DoxyParamCaption}\item[{float}]{timestamp,  }\item[{int}]{face\+Id }\end{DoxyParamCaption})}
+
+Is called when a face is detected by Affectiva \mbox{\Hypertarget{class_player_emotion_controller_a27c247c8051c1026716b7f21a896ae61}\label{class_player_emotion_controller_a27c247c8051c1026716b7f21a896ae61}} 
+\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}!on\+Face\+Lost@{on\+Face\+Lost}}
+\index{on\+Face\+Lost@{on\+Face\+Lost}!Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+\subsubsection{\texorpdfstring{on\+Face\+Lost()}{onFaceLost()}}
+{\footnotesize\ttfamily override void Player\+Emotion\+Controller.\+on\+Face\+Lost (\begin{DoxyParamCaption}\item[{float}]{timestamp,  }\item[{int}]{face\+Id }\end{DoxyParamCaption})}
+
+Is called when Affectiva does not detect a face \mbox{\Hypertarget{class_player_emotion_controller_a00e185773c0a3ce8a659bb78f4e9b952}\label{class_player_emotion_controller_a00e185773c0a3ce8a659bb78f4e9b952}} 
+\index{Player\+Emotion\+Controller@{Player\+Emotion\+Controller}!on\+Image\+Results@{on\+Image\+Results}}
+\index{on\+Image\+Results@{on\+Image\+Results}!Player\+Emotion\+Controller@{Player\+Emotion\+Controller}}
+\subsubsection{\texorpdfstring{on\+Image\+Results()}{onImageResults()}}
+{\footnotesize\ttfamily override void Player\+Emotion\+Controller.\+on\+Image\+Results (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Face $>$}]{faces }\end{DoxyParamCaption})}
+
+Fill the dictionary with the returned values from Affectiva, for each emotion 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Player\+Emotion\+Controller.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['randomspawn',['RandomSpawn',['../class_platforms_generation_controller.html#a0a5e7c057ba329490925ae1c4d21a06b',1,'PlatformsGenerationController']]],
+  ['removelinebreakandspace',['RemoveLineBreakAndSpace',['../class_text_file_controller.html#ad839df8c252d9e12d5ae7b92d250ae81',1,'TextFileController']]],
+  ['removeplayer',['RemovePlayer',['../class_color_file_manager.html#a73094e85b36ea78788ee84733c419fbd',1,'ColorFileManager.RemovePlayer()'],['../class_data_file_manager.html#a326a5c6038fcba1b949e825e7f67c9e7',1,'DataFileManager.RemovePlayer()']]],
+  ['reset',['Reset',['../class_game_controller.html#a3cd671c32f42d6d53b040a73af63aeda',1,'GameController']]],
+  ['resetemotion',['ResetEmotion',['../class_platforms_generation_emotion_controller.html#ae9d8a0d70cba3fc5f4ec97c565df3eab',1,'PlatformsGenerationEmotionController']]],
+  ['resetfile',['ResetFile',['../class_color_file_manager.html#aa6497a46c4128d159552b65f1f675cfe',1,'ColorFileManager.ResetFile()'],['../class_data_file_manager.html#a216fccaf83f9be400a0b8df1466f1ce0',1,'DataFileManager.ResetFile()']]],
+  ['resetmusic',['ResetMusic',['../class_music_controller.html#ae16b96ac7e2075229191a3cdd4765bde',1,'MusicController']]],
+  ['resetplayerposition',['ResetPlayerPosition',['../class_tutorial_controller.html#a4f842bb1692e3c2bd3c73100a3511dac',1,'TutorialController']]],
+  ['resetplayerprefs',['ResetPlayerPrefs',['../class_main_menu_controller.html#a71ba493b5847db8032f3d922c367ff2f',1,'MainMenuController']]],
+  ['resetspeed',['ResetSpeed',['../class_player_controller.html#a2037a2ff31a22db7022be1ad13c61a9d',1,'PlayerController']]],
+  ['resetvisited',['ResetVisited',['../class_platforms_generation_controller.html#a9a5fec18fdac19bd97a970210d230619',1,'PlatformsGenerationController']]],
+  ['resetweight',['ResetWeight',['../class_platforms_generation_controller.html#abb5b86c9cc92d660b8ed16d2ebb7e81f',1,'PlatformsGenerationController']]],
+  ['restart',['Restart',['../class_death_menu_controller.html#a7197ffc2b2c7f828567305713273d337',1,'DeathMenuController.Restart()'],['../class_pause_menu_controller.html#a6589e248ee8b466d85c042144e88ab20',1,'PauseMenuController.Restart()']]],
+  ['resume',['Resume',['../class_pause_menu_controller.html#a4048ec517af3d52f890c2f6153287779',1,'PauseMenuController']]],
+  ['runemotiontest',['RunEmotionTest',['../class_main_menu_controller.html#a22385cbb6d28a3c8757e4b9fd4b72c9d',1,'MainMenuController']]],
+  ['runrandommode',['RunRandomMode',['../class_main_menu_controller.html#aaa781de40fb0c8a531068e5e26b4ce75',1,'MainMenuController']]]
+];

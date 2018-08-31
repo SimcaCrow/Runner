@@ -1,0 +1,105 @@
+\hypertarget{class_calories_controller}{}\section{Calories\+Controller Class Reference}
+\label{class_calories_controller}\index{Calories\+Controller@{Calories\+Controller}}
+Inheritance diagram for Calories\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_calories_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_calories_controller_a78ac27ea6bf24258bbdbfbc65e91cc9d}{Get\+Calories\+Lost}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_calories_controller_a39f485b1d759d0ded338a265d095cb2b}\label{class_calories_controller_a39f485b1d759d0ded338a265d095cb2b}} 
+Audio\+Source {\bfseries achievement\+Sound}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_calories_controller_ac97768ccdf48f93721631c1b5dca134b}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_calories_controller_ac4aa187458c0c1b20d4be1e84827607d}{Update}} ()
+\item 
+void \mbox{\hyperlink{class_calories_controller_a5973455b55655d023de4632a577b1868}{manage\+Calorie\+Bar}} ()
+\item 
+void \mbox{\hyperlink{class_calories_controller_a7c3eb22600ee2e6b44e17b765c22b9e8}{Update\+Calories}} ()
+\item 
+void \mbox{\hyperlink{class_calories_controller_a1e98a94df30539c1ab3c2b7b6acc3003}{Display\+Calories}} ()
+\item 
+void \mbox{\hyperlink{class_calories_controller_a4b9e444baac73fd0fe7d17e3b0b06c89}{Update\+Calories\+Bar}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_calories_controller_a88787ace7545e3bd079c997427db3f0c}\label{class_calories_controller_a88787ace7545e3bd079c997427db3f0c}} 
+\mbox{\hyperlink{class_text_file_controller}{Text\+File\+Controller}} {\bfseries text\+Manager}
+\item 
+\mbox{\Hypertarget{class_calories_controller_a5b032d293e6a11eb099fc21b85a203e8}\label{class_calories_controller_a5b032d293e6a11eb099fc21b85a203e8}} 
+Text {\bfseries calories\+Text}
+\item 
+\mbox{\Hypertarget{class_calories_controller_a8b50599ed392d0cca9072877fca1240c}\label{class_calories_controller_a8b50599ed392d0cca9072877fca1240c}} 
+Game\+Object {\bfseries calories\+Bar}
+\item 
+\mbox{\Hypertarget{class_calories_controller_ae4b78a76652d2a4b8a806d7da3129b5e}\label{class_calories_controller_ae4b78a76652d2a4b8a806d7da3129b5e}} 
+int {\bfseries calories\+Lost}
+\item 
+\mbox{\Hypertarget{class_calories_controller_ac0d19ef83375ae3475b537afcf278fff}\label{class_calories_controller_ac0d19ef83375ae3475b537afcf278fff}} 
+int {\bfseries calories\+To\+Lost}
+\item 
+\mbox{\Hypertarget{class_calories_controller_aeb6c55820b4bfacba6e36f0f3df7af9c}\label{class_calories_controller_aeb6c55820b4bfacba6e36f0f3df7af9c}} 
+bool {\bfseries sound\+Has\+Being\+Played}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_calories_controller_a1e98a94df30539c1ab3c2b7b6acc3003}\label{class_calories_controller_a1e98a94df30539c1ab3c2b7b6acc3003}} 
+\index{Calories\+Controller@{Calories\+Controller}!Display\+Calories@{Display\+Calories}}
+\index{Display\+Calories@{Display\+Calories}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Display\+Calories()}{DisplayCalories()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+Display\+Calories (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Display the number of calories lost on screen \mbox{\Hypertarget{class_calories_controller_a78ac27ea6bf24258bbdbfbc65e91cc9d}\label{class_calories_controller_a78ac27ea6bf24258bbdbfbc65e91cc9d}} 
+\index{Calories\+Controller@{Calories\+Controller}!Get\+Calories\+Lost@{Get\+Calories\+Lost}}
+\index{Get\+Calories\+Lost@{Get\+Calories\+Lost}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Get\+Calories\+Lost()}{GetCaloriesLost()}}
+{\footnotesize\ttfamily int Calories\+Controller.\+Get\+Calories\+Lost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Return the amount of calories lost \mbox{\Hypertarget{class_calories_controller_a5973455b55655d023de4632a577b1868}\label{class_calories_controller_a5973455b55655d023de4632a577b1868}} 
+\index{Calories\+Controller@{Calories\+Controller}!manage\+Calorie\+Bar@{manage\+Calorie\+Bar}}
+\index{manage\+Calorie\+Bar@{manage\+Calorie\+Bar}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{manage\+Calorie\+Bar()}{manageCalorieBar()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+manage\+Calorie\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Change the state of the calorie bar according to the player goal \mbox{\Hypertarget{class_calories_controller_ac97768ccdf48f93721631c1b5dca134b}\label{class_calories_controller_ac97768ccdf48f93721631c1b5dca134b}} 
+\index{Calories\+Controller@{Calories\+Controller}!Start@{Start}}
+\index{Start@{Start}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_calories_controller_ac4aa187458c0c1b20d4be1e84827607d}\label{class_calories_controller_ac4aa187458c0c1b20d4be1e84827607d}} 
+\index{Calories\+Controller@{Calories\+Controller}!Update@{Update}}
+\index{Update@{Update}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update is called once per frame \mbox{\Hypertarget{class_calories_controller_a7c3eb22600ee2e6b44e17b765c22b9e8}\label{class_calories_controller_a7c3eb22600ee2e6b44e17b765c22b9e8}} 
+\index{Calories\+Controller@{Calories\+Controller}!Update\+Calories@{Update\+Calories}}
+\index{Update\+Calories@{Update\+Calories}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Update\+Calories()}{UpdateCalories()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+Update\+Calories (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update the amount of calories lost \mbox{\Hypertarget{class_calories_controller_a4b9e444baac73fd0fe7d17e3b0b06c89}\label{class_calories_controller_a4b9e444baac73fd0fe7d17e3b0b06c89}} 
+\index{Calories\+Controller@{Calories\+Controller}!Update\+Calories\+Bar@{Update\+Calories\+Bar}}
+\index{Update\+Calories\+Bar@{Update\+Calories\+Bar}!Calories\+Controller@{Calories\+Controller}}
+\subsubsection{\texorpdfstring{Update\+Calories\+Bar()}{UpdateCaloriesBar()}}
+{\footnotesize\ttfamily void Calories\+Controller.\+Update\+Calories\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Update the calorie bar on screen 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Calories\+Controller.\+cs\end{DoxyCompactItemize}

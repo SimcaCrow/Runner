@@ -1,0 +1,105 @@
+\hypertarget{class_music_controller}{}\section{Music\+Controller Class Reference}
+\label{class_music_controller}\index{Music\+Controller@{Music\+Controller}}
+Inheritance diagram for Music\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_music_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_music_controller_ae16b96ac7e2075229191a3cdd4765bde}{Reset\+Music}} ()
+\item 
+void \mbox{\hyperlink{class_music_controller_a59a194df4e895834b0639bd6c750a7b9}{Switch\+Music}} (string emotion\+Name)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_music_controller_ab0bb155ce5f1b815b305669331a90fe5}\label{class_music_controller_ab0bb155ce5f1b815b305669331a90fe5}} 
+Audio\+Source {\bfseries angry\+Music}
+\item 
+\mbox{\Hypertarget{class_music_controller_af4ba091238f0ee7461d42465404d95c5}\label{class_music_controller_af4ba091238f0ee7461d42465404d95c5}} 
+Audio\+Source {\bfseries surprise\+Music}
+\item 
+\mbox{\Hypertarget{class_music_controller_a87d576a31e3db7fbdab7c5817d71e7e3}\label{class_music_controller_a87d576a31e3db7fbdab7c5817d71e7e3}} 
+Audio\+Source {\bfseries joy\+Music}
+\item 
+\mbox{\Hypertarget{class_music_controller_af598d267c360c23c378e8ab4bd502a5b}\label{class_music_controller_af598d267c360c23c378e8ab4bd502a5b}} 
+Audio\+Source {\bfseries sad\+Music}
+\item 
+\mbox{\Hypertarget{class_music_controller_aae5ff401321f0aaa900244764633fb99}\label{class_music_controller_aae5ff401321f0aaa900244764633fb99}} 
+Audio\+Source {\bfseries default\+Music}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_music_controller_a262af298ee2c96b1f04d4f8a2ae58ef9}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_music_controller_a7d34bde91299800af6deb844e6a3ce4b}{Play\+Music}} (Audio\+Source music)
+\item 
+void \mbox{\hyperlink{class_music_controller_ad34d18199b46d787b0fd54942602dbef}{Stop\+Music}} (Audio\+Source music)
+\item 
+void \mbox{\hyperlink{class_music_controller_a89fa8ad5c85a69e698e73c04f11f8542}{Fade\+In}} (Audio\+Source music)
+\item 
+void \mbox{\hyperlink{class_music_controller_a6f549e39e322a2b65adac53f7d931bc6}{Fade\+Out}} (Audio\+Source music)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_music_controller_a3e4ed4a92266c20ab487800c44dee9cb}\label{class_music_controller_a3e4ed4a92266c20ab487800c44dee9cb}} 
+Audio\+Source {\bfseries music\+Play}
+\item 
+\mbox{\Hypertarget{class_music_controller_ad2ff511dd4aeb345a6a91d771638162f}\label{class_music_controller_ad2ff511dd4aeb345a6a91d771638162f}} 
+Audio\+Source {\bfseries music\+To\+Play}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_music_controller_a89fa8ad5c85a69e698e73c04f11f8542}\label{class_music_controller_a89fa8ad5c85a69e698e73c04f11f8542}} 
+\index{Music\+Controller@{Music\+Controller}!Fade\+In@{Fade\+In}}
+\index{Fade\+In@{Fade\+In}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Fade\+In()}{FadeIn()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Fade\+In (\begin{DoxyParamCaption}\item[{Audio\+Source}]{music }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Fade in the music sound \mbox{\Hypertarget{class_music_controller_a6f549e39e322a2b65adac53f7d931bc6}\label{class_music_controller_a6f549e39e322a2b65adac53f7d931bc6}} 
+\index{Music\+Controller@{Music\+Controller}!Fade\+Out@{Fade\+Out}}
+\index{Fade\+Out@{Fade\+Out}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Fade\+Out()}{FadeOut()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Fade\+Out (\begin{DoxyParamCaption}\item[{Audio\+Source}]{music }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Fade out the music sound \mbox{\Hypertarget{class_music_controller_a7d34bde91299800af6deb844e6a3ce4b}\label{class_music_controller_a7d34bde91299800af6deb844e6a3ce4b}} 
+\index{Music\+Controller@{Music\+Controller}!Play\+Music@{Play\+Music}}
+\index{Play\+Music@{Play\+Music}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Play\+Music()}{PlayMusic()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Play\+Music (\begin{DoxyParamCaption}\item[{Audio\+Source}]{music }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Play the music accordind to the emotion detected \mbox{\Hypertarget{class_music_controller_ae16b96ac7e2075229191a3cdd4765bde}\label{class_music_controller_ae16b96ac7e2075229191a3cdd4765bde}} 
+\index{Music\+Controller@{Music\+Controller}!Reset\+Music@{Reset\+Music}}
+\index{Reset\+Music@{Reset\+Music}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Reset\+Music()}{ResetMusic()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Reset\+Music (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reset the music to default one \mbox{\Hypertarget{class_music_controller_a262af298ee2c96b1f04d4f8a2ae58ef9}\label{class_music_controller_a262af298ee2c96b1f04d4f8a2ae58ef9}} 
+\index{Music\+Controller@{Music\+Controller}!Start@{Start}}
+\index{Start@{Start}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Initialization \mbox{\Hypertarget{class_music_controller_ad34d18199b46d787b0fd54942602dbef}\label{class_music_controller_ad34d18199b46d787b0fd54942602dbef}} 
+\index{Music\+Controller@{Music\+Controller}!Stop\+Music@{Stop\+Music}}
+\index{Stop\+Music@{Stop\+Music}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Stop\+Music()}{StopMusic()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Stop\+Music (\begin{DoxyParamCaption}\item[{Audio\+Source}]{music }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Stop the music when no/another emotion is detected \mbox{\Hypertarget{class_music_controller_a59a194df4e895834b0639bd6c750a7b9}\label{class_music_controller_a59a194df4e895834b0639bd6c750a7b9}} 
+\index{Music\+Controller@{Music\+Controller}!Switch\+Music@{Switch\+Music}}
+\index{Switch\+Music@{Switch\+Music}!Music\+Controller@{Music\+Controller}}
+\subsubsection{\texorpdfstring{Switch\+Music()}{SwitchMusic()}}
+{\footnotesize\ttfamily void Music\+Controller.\+Switch\+Music (\begin{DoxyParamCaption}\item[{string}]{emotion\+Name }\end{DoxyParamCaption})}
+
+Change the music accordind to the emotion detected 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Music\+Controller.\+cs\end{DoxyCompactItemize}

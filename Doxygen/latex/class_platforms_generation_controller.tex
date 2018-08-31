@@ -1,0 +1,216 @@
+\hypertarget{class_platforms_generation_controller}{}\section{Platforms\+Generation\+Controller Class Reference}
+\label{class_platforms_generation_controller}\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+Inheritance diagram for Platforms\+Generation\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_platforms_generation_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_a7b47f9cbf87a95f755ef450b151ed031}{Select\+Platform\+Body}} (Type\+Of\+Platform platform\+Type)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a8aea1ac3442d520be1c800df3a6d0510}\label{class_platforms_generation_controller_a8aea1ac3442d520be1c800df3a6d0510}} 
+Game\+Object \mbox{[}$\,$\mbox{]} {\bfseries platforms\+List}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a9bf28facf131fb7bce5dea9bd030638e}\label{class_platforms_generation_controller_a9bf28facf131fb7bce5dea9bd030638e}} 
+Game\+Object {\bfseries first\+Platforms}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a8f45ca97178a2086095ee6feb3f01caf}\label{class_platforms_generation_controller_a8f45ca97178a2086095ee6feb3f01caf}} 
+Game\+Object {\bfseries background\+Block}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_ad2884dd0dcb1f10e6f64d4e030e10750}\label{class_platforms_generation_controller_ad2884dd0dcb1f10e6f64d4e030e10750}} 
+List$<$ Game\+Object $>$ {\bfseries elements}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_aa56bcd75c1eb7419fb874dc417289e6e}\label{class_platforms_generation_controller_aa56bcd75c1eb7419fb874dc417289e6e}} 
+int {\bfseries min\+Height}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_ab47a68a24a15a402caff725ecac3291c}\label{class_platforms_generation_controller_ab47a68a24a15a402caff725ecac3291c}} 
+int {\bfseries max\+Height}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_platforms_generation_controller_a3bc338f320d39a1a549648d2ce11074d}{Start}} ()
+\item 
+virtual void \mbox{\hyperlink{class_platforms_generation_controller_ad014a93027f02d91fb93698b8f872606}{Update}} ()
+\item 
+virtual void \mbox{\hyperlink{class_platforms_generation_controller_a17255efc120393f5e6a2decd303c33b1}{Spawn\+Platform}} (int platform\+Width, int platform\+Height)
+\item 
+int \mbox{\hyperlink{class_platforms_generation_controller_a24c92b696b3dfefb3ea9b0e554fe70d3}{Trap\+Gap}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_a650ebb25191671bf10970f2ebd5b80f7}{Spawn\+Background\+Blocks}} (int platform\+Width, int platform\+Height)
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_ae3a28f38bdbb0c9847ef5ab4538b8f17}{Spawn\+Element}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_a9a5fec18fdac19bd97a970210d230619}{Reset\+Visited}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_ab45ad4c42b43ad7eebc92ac79d4ddb51}{Adapt\+Probabilities}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_ab12ea5197eb0395e3863e5ca8059881b}{Tag\+Probabilities}} (string tag, int change)
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_abb5b86c9cc92d660b8ed16d2ebb7e81f}{Reset\+Weight}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a0acd0baa788817b39022c398954664b3}\label{class_platforms_generation_controller_a0acd0baa788817b39022c398954664b3}} 
+Game\+Object {\bfseries last\+Platform\+Created}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_ada6e1cb66764417600354163d48b4840}\label{class_platforms_generation_controller_ada6e1cb66764417600354163d48b4840}} 
+string {\bfseries platform\+Name}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a04a035bdffe90de10c6041febdefd909}\label{class_platforms_generation_controller_a04a035bdffe90de10c6041febdefd909}} 
+int {\bfseries height\+Level}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_aee495c9238b4a0237e718dc00152f55f}\label{class_platforms_generation_controller_aee495c9238b4a0237e718dc00152f55f}} 
+Game\+Object {\bfseries player}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_a6f706a8a5a3a9e6fbc1714283493c6ef}{Generate\+Platform}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_accf9694cf731427ae0d6f89741f9734d}{Generate\+Platform\+Randomly}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_a3114332440f809a82fb41248dbe275d6}{Generate\+Platform\+Path}} ()
+\item 
+void \mbox{\hyperlink{class_platforms_generation_controller_ad049559a838cc96b0688d34a91d2f510}{Depth\+First\+Search}} (Game\+Object start, Game\+Object target)
+\item 
+int \mbox{\hyperlink{class_platforms_generation_controller_a0a5e7c057ba329490925ae1c4d21a06b}{Random\+Spawn}} (List$<$ int $>$ weights)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_affd1b136c7e0b233ac62bca608eaabec}\label{class_platforms_generation_controller_affd1b136c7e0b233ac62bca608eaabec}} 
+Type\+Of\+Platform {\bfseries last\+Type}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_a2220e12411719bfd53c82358271a170c}\label{class_platforms_generation_controller_a2220e12411719bfd53c82358271a170c}} 
+Transform {\bfseries generation\+Point}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_abd2fd87ca78d8ab707f324dede6081e9}\label{class_platforms_generation_controller_abd2fd87ca78d8ab707f324dede6081e9}} 
+List$<$ Game\+Object $>$ {\bfseries path}
+\item 
+\mbox{\Hypertarget{class_platforms_generation_controller_af9ef24bce15b0cc2d3ecabff5bf7d6e1}\label{class_platforms_generation_controller_af9ef24bce15b0cc2d3ecabff5bf7d6e1}} 
+bool \mbox{[}$\,$\mbox{]} {\bfseries platforms\+Visited}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_platforms_generation_controller_ab45ad4c42b43ad7eebc92ac79d4ddb51}\label{class_platforms_generation_controller_ab45ad4c42b43ad7eebc92ac79d4ddb51}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Adapt\+Probabilities@{Adapt\+Probabilities}}
+\index{Adapt\+Probabilities@{Adapt\+Probabilities}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Adapt\+Probabilities()}{AdaptProbabilities()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Adapt\+Probabilities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Select the next platform depending of the part of the body \mbox{\Hypertarget{class_platforms_generation_controller_ad049559a838cc96b0688d34a91d2f510}\label{class_platforms_generation_controller_ad049559a838cc96b0688d34a91d2f510}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Depth\+First\+Search@{Depth\+First\+Search}}
+\index{Depth\+First\+Search@{Depth\+First\+Search}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Depth\+First\+Search()}{DepthFirstSearch()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Depth\+First\+Search (\begin{DoxyParamCaption}\item[{Game\+Object}]{start,  }\item[{Game\+Object}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Find a path between the started platform and the targeted platform with a Depth\+First\+Search algorith \mbox{\Hypertarget{class_platforms_generation_controller_a6f706a8a5a3a9e6fbc1714283493c6ef}\label{class_platforms_generation_controller_a6f706a8a5a3a9e6fbc1714283493c6ef}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Generate\+Platform@{Generate\+Platform}}
+\index{Generate\+Platform@{Generate\+Platform}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Generate\+Platform()}{GeneratePlatform()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Generate\+Platform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Generate the next blocks of the level between the generation point and the position and the platform generation controller position \mbox{\Hypertarget{class_platforms_generation_controller_a3114332440f809a82fb41248dbe275d6}\label{class_platforms_generation_controller_a3114332440f809a82fb41248dbe275d6}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Generate\+Platform\+Path@{Generate\+Platform\+Path}}
+\index{Generate\+Platform\+Path@{Generate\+Platform\+Path}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Generate\+Platform\+Path()}{GeneratePlatformPath()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Generate\+Platform\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Generate the next platform in the path \mbox{\Hypertarget{class_platforms_generation_controller_accf9694cf731427ae0d6f89741f9734d}\label{class_platforms_generation_controller_accf9694cf731427ae0d6f89741f9734d}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Generate\+Platform\+Randomly@{Generate\+Platform\+Randomly}}
+\index{Generate\+Platform\+Randomly@{Generate\+Platform\+Randomly}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Generate\+Platform\+Randomly()}{GeneratePlatformRandomly()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Generate\+Platform\+Randomly (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Generate the next platform randomly \mbox{\Hypertarget{class_platforms_generation_controller_a0a5e7c057ba329490925ae1c4d21a06b}\label{class_platforms_generation_controller_a0a5e7c057ba329490925ae1c4d21a06b}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Random\+Spawn@{Random\+Spawn}}
+\index{Random\+Spawn@{Random\+Spawn}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Random\+Spawn()}{RandomSpawn()}}
+{\footnotesize\ttfamily int Platforms\+Generation\+Controller.\+Random\+Spawn (\begin{DoxyParamCaption}\item[{List$<$ int $>$}]{weights }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Select an index depending on a list of weights \mbox{\Hypertarget{class_platforms_generation_controller_a9a5fec18fdac19bd97a970210d230619}\label{class_platforms_generation_controller_a9a5fec18fdac19bd97a970210d230619}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Reset\+Visited@{Reset\+Visited}}
+\index{Reset\+Visited@{Reset\+Visited}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Reset\+Visited()}{ResetVisited()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Reset\+Visited (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Reset the content of platforms\+Visited to false \mbox{\Hypertarget{class_platforms_generation_controller_abb5b86c9cc92d660b8ed16d2ebb7e81f}\label{class_platforms_generation_controller_abb5b86c9cc92d660b8ed16d2ebb7e81f}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Reset\+Weight@{Reset\+Weight}}
+\index{Reset\+Weight@{Reset\+Weight}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Reset\+Weight()}{ResetWeight()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Reset\+Weight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Reset the weight of all the platform in platform\+List \mbox{\Hypertarget{class_platforms_generation_controller_a7b47f9cbf87a95f755ef450b151ed031}\label{class_platforms_generation_controller_a7b47f9cbf87a95f755ef450b151ed031}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Select\+Platform\+Body@{Select\+Platform\+Body}}
+\index{Select\+Platform\+Body@{Select\+Platform\+Body}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Select\+Platform\+Body()}{SelectPlatformBody()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Select\+Platform\+Body (\begin{DoxyParamCaption}\item[{Type\+Of\+Platform}]{platform\+Type }\end{DoxyParamCaption})}
+
+Select the next platform depending of the part of the body \mbox{\Hypertarget{class_platforms_generation_controller_a650ebb25191671bf10970f2ebd5b80f7}\label{class_platforms_generation_controller_a650ebb25191671bf10970f2ebd5b80f7}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Spawn\+Background\+Blocks@{Spawn\+Background\+Blocks}}
+\index{Spawn\+Background\+Blocks@{Spawn\+Background\+Blocks}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Spawn\+Background\+Blocks()}{SpawnBackgroundBlocks()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Spawn\+Background\+Blocks (\begin{DoxyParamCaption}\item[{int}]{platform\+Width,  }\item[{int}]{platform\+Height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Instantiate the new background blocks \mbox{\Hypertarget{class_platforms_generation_controller_ae3a28f38bdbb0c9847ef5ab4538b8f17}\label{class_platforms_generation_controller_ae3a28f38bdbb0c9847ef5ab4538b8f17}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Spawn\+Element@{Spawn\+Element}}
+\index{Spawn\+Element@{Spawn\+Element}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Spawn\+Element()}{SpawnElement()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Spawn\+Element (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Selects the next spawn decort element \mbox{\Hypertarget{class_platforms_generation_controller_a17255efc120393f5e6a2decd303c33b1}\label{class_platforms_generation_controller_a17255efc120393f5e6a2decd303c33b1}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Spawn\+Platform@{Spawn\+Platform}}
+\index{Spawn\+Platform@{Spawn\+Platform}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Spawn\+Platform()}{SpawnPlatform()}}
+{\footnotesize\ttfamily virtual void Platforms\+Generation\+Controller.\+Spawn\+Platform (\begin{DoxyParamCaption}\item[{int}]{platform\+Width,  }\item[{int}]{platform\+Height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Instantiate the new platform of the level 
+
+Reimplemented in \mbox{\hyperlink{class_platforms_generation_emotion_controller_a6cc960afa43cdfc9c688b155fd262703}{Platforms\+Generation\+Emotion\+Controller}}.
+
+\mbox{\Hypertarget{class_platforms_generation_controller_a3bc338f320d39a1a549648d2ce11074d}\label{class_platforms_generation_controller_a3bc338f320d39a1a549648d2ce11074d}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Start@{Start}}
+\index{Start@{Start}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily virtual void Platforms\+Generation\+Controller.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Initialization 
+
+Reimplemented in \mbox{\hyperlink{class_platforms_generation_emotion_controller_a6014a59da6d2d4d789527778f78db7fe}{Platforms\+Generation\+Emotion\+Controller}}, and \mbox{\hyperlink{class_platforms_generation_pre_exp_controller_a839b8a8e2ce74f9388aae0a4f937b836}{Platforms\+Generation\+Pre\+Exp\+Controller}}.
+
+\mbox{\Hypertarget{class_platforms_generation_controller_ab12ea5197eb0395e3863e5ca8059881b}\label{class_platforms_generation_controller_ab12ea5197eb0395e3863e5ca8059881b}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Tag\+Probabilities@{Tag\+Probabilities}}
+\index{Tag\+Probabilities@{Tag\+Probabilities}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Tag\+Probabilities()}{TagProbabilities()}}
+{\footnotesize\ttfamily void Platforms\+Generation\+Controller.\+Tag\+Probabilities (\begin{DoxyParamCaption}\item[{string}]{tag,  }\item[{int}]{change }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Change the probability of a platform depending of the tag given \mbox{\Hypertarget{class_platforms_generation_controller_a24c92b696b3dfefb3ea9b0e554fe70d3}\label{class_platforms_generation_controller_a24c92b696b3dfefb3ea9b0e554fe70d3}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Trap\+Gap@{Trap\+Gap}}
+\index{Trap\+Gap@{Trap\+Gap}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Trap\+Gap()}{TrapGap()}}
+{\footnotesize\ttfamily int Platforms\+Generation\+Controller.\+Trap\+Gap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Compute the minimal gap between 2 traps \mbox{\Hypertarget{class_platforms_generation_controller_ad014a93027f02d91fb93698b8f872606}\label{class_platforms_generation_controller_ad014a93027f02d91fb93698b8f872606}} 
+\index{Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}!Update@{Update}}
+\index{Update@{Update}!Platforms\+Generation\+Controller@{Platforms\+Generation\+Controller}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily virtual void Platforms\+Generation\+Controller.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Update is called once per frame 
+
+Reimplemented in \mbox{\hyperlink{class_platforms_generation_emotion_controller_a9df024fe907661ae1f126782f84a76fd}{Platforms\+Generation\+Emotion\+Controller}}, and \mbox{\hyperlink{class_platforms_generation_pre_exp_controller_a21734bbe5479a03708e00e308ca384cb}{Platforms\+Generation\+Pre\+Exp\+Controller}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Unity Projects/\+Runner/\+Assets/\+Scripts/Platforms\+Generation\+Controller.\+cs\end{DoxyCompactItemize}
